@@ -78,8 +78,6 @@ namespace ShortServe.App.Food
         {
             foreach(var food in foods)
             {
-                var img = new Image();
-                img.Load($"{assetPath}/{food.Value}");
                 var imageTexture = (Texture) GD.Load($"{assetPath}/{food.Value}");
                 imageTexture.Flags = (int) Texture.FlagsEnum.Mipmaps;
 
