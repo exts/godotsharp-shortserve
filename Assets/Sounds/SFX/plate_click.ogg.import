@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/plate_click.ogg-4f53333fdd450dc8239d1bb7849e391c.oggstr"
+
+[deps]
+
+source_file="res://Assets/Sounds/SFX/plate_click.ogg"
+dest_files=[ "res://.import/plate_click.ogg-4f53333fdd450dc8239d1bb7849e391c.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

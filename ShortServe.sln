@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortServe", "ShortServe.csproj", "{1863E594-6EDD-4FC2-8F9C-AA67AA1FEA5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	Release|Any CPU = Release|Any CPU
+	Tools|Any CPU = Tools|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1863E594-6EDD-4FC2-8F9C-AA67AA1FEA5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1863E594-6EDD-4FC2-8F9C-AA67AA1FEA5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1863E594-6EDD-4FC2-8F9C-AA67AA1FEA5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1863E594-6EDD-4FC2-8F9C-AA67AA1FEA5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1863E594-6EDD-4FC2-8F9C-AA67AA1FEA5D}.Tools|Any CPU.ActiveCfg = Tools|Any CPU
+		{1863E594-6EDD-4FC2-8F9C-AA67AA1FEA5D}.Tools|Any CPU.Build.0 = Tools|Any CPU
+	EndGlobalSection
+EndGlobal

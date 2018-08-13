@@ -1,0 +1,286 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Assets/Art/Plate.png" type="Texture" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Node" type="Node2D" parent="." index="0"]
+
+editor/display_folded = true
+
+[node name="Plate" type="Sprite" parent="Node" index="0"]
+
+position = Vector2( 120.309, 119.706 )
+texture = ExtResource( 1 )
+
+[node name="Plate2" type="Sprite" parent="Node" index="1"]
+
+position = Vector2( 193.797, 121.376 )
+texture = ExtResource( 1 )
+
+[node name="Plate3" type="Sprite" parent="Node" index="2"]
+
+position = Vector2( 266.598, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate4" type="Sprite" parent="Node" index="3"]
+
+position = Vector2( 340.901, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate5" type="Sprite" parent="Node" index="4"]
+
+position = Vector2( 417.021, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate6" type="Sprite" parent="Node" index="5"]
+
+position = Vector2( 499.279, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate7" type="Sprite" parent="Node" index="6"]
+
+position = Vector2( 576.627, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Node2" type="Node2D" parent="." index="1"]
+
+editor/display_folded = true
+position = Vector2( 0, 79.8029 )
+
+[node name="Plate" type="Sprite" parent="Node2" index="0"]
+
+position = Vector2( 120.309, 119.706 )
+texture = ExtResource( 1 )
+
+[node name="Plate2" type="Sprite" parent="Node2" index="1"]
+
+position = Vector2( 193.797, 121.376 )
+texture = ExtResource( 1 )
+
+[node name="Plate3" type="Sprite" parent="Node2" index="2"]
+
+position = Vector2( 266.598, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate4" type="Sprite" parent="Node2" index="3"]
+
+position = Vector2( 340.901, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate5" type="Sprite" parent="Node2" index="4"]
+
+position = Vector2( 417.021, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate6" type="Sprite" parent="Node2" index="5"]
+
+position = Vector2( 499.279, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate7" type="Sprite" parent="Node2" index="6"]
+
+position = Vector2( 576.627, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Node3" type="Node2D" parent="." index="2"]
+
+editor/display_folded = true
+position = Vector2( 0, 157.15 )
+
+[node name="Plate" type="Sprite" parent="Node3" index="0"]
+
+position = Vector2( 120.309, 119.706 )
+texture = ExtResource( 1 )
+
+[node name="Plate2" type="Sprite" parent="Node3" index="1"]
+
+position = Vector2( 193.797, 121.376 )
+texture = ExtResource( 1 )
+
+[node name="Plate3" type="Sprite" parent="Node3" index="2"]
+
+position = Vector2( 266.598, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate4" type="Sprite" parent="Node3" index="3"]
+
+position = Vector2( 340.901, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate5" type="Sprite" parent="Node3" index="4"]
+
+position = Vector2( 417.021, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate6" type="Sprite" parent="Node3" index="5"]
+
+position = Vector2( 499.279, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate7" type="Sprite" parent="Node3" index="6"]
+
+position = Vector2( 576.627, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Node4" type="Node2D" parent="." index="3"]
+
+editor/display_folded = true
+position = Vector2( 0, 235.726 )
+
+[node name="Plate" type="Sprite" parent="Node4" index="0"]
+
+position = Vector2( 120.309, 119.706 )
+texture = ExtResource( 1 )
+
+[node name="Plate2" type="Sprite" parent="Node4" index="1"]
+
+position = Vector2( 193.797, 121.376 )
+texture = ExtResource( 1 )
+
+[node name="Plate3" type="Sprite" parent="Node4" index="2"]
+
+position = Vector2( 266.598, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate4" type="Sprite" parent="Node4" index="3"]
+
+position = Vector2( 340.901, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate5" type="Sprite" parent="Node4" index="4"]
+
+position = Vector2( 417.021, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate6" type="Sprite" parent="Node4" index="5"]
+
+position = Vector2( 499.279, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate7" type="Sprite" parent="Node4" index="6"]
+
+position = Vector2( 576.627, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Node5" type="Node2D" parent="." index="4"]
+
+editor/display_folded = true
+position = Vector2( 0, 315.529 )
+
+[node name="Plate" type="Sprite" parent="Node5" index="0"]
+
+position = Vector2( 120.309, 119.706 )
+texture = ExtResource( 1 )
+
+[node name="Plate2" type="Sprite" parent="Node5" index="1"]
+
+position = Vector2( 193.797, 121.376 )
+texture = ExtResource( 1 )
+
+[node name="Plate3" type="Sprite" parent="Node5" index="2"]
+
+position = Vector2( 266.598, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate4" type="Sprite" parent="Node5" index="3"]
+
+position = Vector2( 340.901, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate5" type="Sprite" parent="Node5" index="4"]
+
+position = Vector2( 417.021, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate6" type="Sprite" parent="Node5" index="5"]
+
+position = Vector2( 499.279, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate7" type="Sprite" parent="Node5" index="6"]
+
+position = Vector2( 576.627, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Node6" type="Node2D" parent="." index="5"]
+
+editor/display_folded = true
+position = Vector2( 0, 395.331 )
+
+[node name="Plate" type="Sprite" parent="Node6" index="0"]
+
+position = Vector2( 120.309, 119.706 )
+texture = ExtResource( 1 )
+
+[node name="Plate2" type="Sprite" parent="Node6" index="1"]
+
+position = Vector2( 193.797, 121.376 )
+texture = ExtResource( 1 )
+
+[node name="Plate3" type="Sprite" parent="Node6" index="2"]
+
+position = Vector2( 266.598, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate4" type="Sprite" parent="Node6" index="3"]
+
+position = Vector2( 340.901, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate5" type="Sprite" parent="Node6" index="4"]
+
+position = Vector2( 417.021, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate6" type="Sprite" parent="Node6" index="5"]
+
+position = Vector2( 499.279, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate7" type="Sprite" parent="Node6" index="6"]
+
+position = Vector2( 576.627, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Node7" type="Node2D" parent="." index="6"]
+
+editor/display_folded = true
+position = Vector2( 0, 477.59 )
+
+[node name="Plate" type="Sprite" parent="Node7" index="0"]
+
+position = Vector2( 120.309, 119.706 )
+texture = ExtResource( 1 )
+
+[node name="Plate2" type="Sprite" parent="Node7" index="1"]
+
+position = Vector2( 193.797, 121.376 )
+texture = ExtResource( 1 )
+
+[node name="Plate3" type="Sprite" parent="Node7" index="2"]
+
+position = Vector2( 266.598, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate4" type="Sprite" parent="Node7" index="3"]
+
+position = Vector2( 340.901, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate5" type="Sprite" parent="Node7" index="4"]
+
+position = Vector2( 417.021, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate6" type="Sprite" parent="Node7" index="5"]
+
+position = Vector2( 499.279, 122.383 )
+texture = ExtResource( 1 )
+
+[node name="Plate7" type="Sprite" parent="Node7" index="6"]
+
+position = Vector2( 576.627, 122.383 )
+texture = ExtResource( 1 )
+
+

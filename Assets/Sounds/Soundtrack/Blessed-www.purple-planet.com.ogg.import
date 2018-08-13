@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Blessed-www.purple-planet.com.ogg-f1f18608e29446374664a84943bf642b.oggstr"
+
+[deps]
+
+source_file="res://Assets/Sounds/Soundtrack/Blessed-www.purple-planet.com.ogg"
+dest_files=[ "res://.import/Blessed-www.purple-planet.com.ogg-f1f18608e29446374664a84943bf642b.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

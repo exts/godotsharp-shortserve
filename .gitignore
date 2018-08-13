@@ -1,0 +1,9 @@
+*.afphoto
+.idea
+.mono
+addons/
+Bin/
+todo.txt
+notes.txt
+!packages
+packages/*

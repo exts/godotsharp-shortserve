@@ -1,0 +1,9 @@
+Font:
+https://www.dafont.com/futurist-fixed-width.font?text=100&psize=s
+https://www.dafont.com/holiday-2.font?text=GameOver
+
+Food Assets:
+https://opengameart.org/content/64-16x16-food-sprites
+
+Mouse Assets:
+https://thenounproject.com/term/mouse-click/369043/
