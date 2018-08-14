@@ -73,8 +73,6 @@ namespace ShortServe.App
 
                 var padding = i == _orderFoodItems.Count - 1 ? 0 : ItemPadding;
                 width += 32 + padding;
-//                width += 32 + i * ItemPadding;
-//                width += i == _orderFoodItems.Count - 1 ? 32 : 32 + (i+1) * ItemPadding;
             }
             
             // position node2d
