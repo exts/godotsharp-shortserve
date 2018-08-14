@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Godot;
 using ShortServe.App.Core;
@@ -136,7 +137,7 @@ namespace ShortServe.App
         
         public void SpawnFood()
         {
-            _foodSpawner.SpawnPlateItem();
+            _foodSpawner.SpawnPlateItem(FoodItems());
         }
 
         private void SpawnStartOrders()
@@ -288,9 +289,24 @@ namespace ShortServe.App
             UpdateHighScore(_highscore);
         }
 
+        private List<FoodItem> FoodItems()
+        {
+            var list = new List<FoodItem>();
+            foreach(var item in _orderContainer.GetChildren().ToList())
+            {
+                if(item is Order order)
+                {
+                    list.AddRange(order.OrderFoodItems);
+                }
+            }
+
+            return list;
+        }
+
         public void Twitter(string handle)
         {
             OS.ShellOpen($"http://twitter.com/{handle}");
         }
+        
     }
 }

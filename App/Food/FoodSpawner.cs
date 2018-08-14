@@ -31,14 +31,18 @@ namespace ShortServe.App.Food
             _foodContainer = foodContainer;
         }
 
-        public void SpawnPlateItem()
+        public void SpawnPlateItem(List<FoodItem> foodItems)
         {
             var spawns = GetAvailableSpawns();
             if(!spawns.Any()) return;
 
             var spawn = spawns[Global.RNG.Next(0, spawns.Count)];
 
-            var foodItem = _foodLoader.Random();
+            var rng = new []{0, 0, 0, 0, 0, 0, 0, 1, 1, 1};
+            var foodItem = rng[Global.RNG.Next(0, rng.Length)] == 0 && foodItems.Count > 0
+                ? _foodLoader.RandomItem(foodItems)
+                : _foodLoader.Random();
+            
             var plate = _plates.PlatesList[(int) spawn.x][(int) spawn.y];
             var sprite = FoodLoader.CreateSprite(foodItem.Texture);
             sprite.Position = plate.GlobalPosition;

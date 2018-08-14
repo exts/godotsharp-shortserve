@@ -27,7 +27,8 @@ namespace ShortServe.App
         private Label _pointsLabel;
         private AnimatedSprite _animatedSprite;
         private Timer _resetAnimationTimer;
-        
+
+        public List<FoodItem> OrderFoodItems => _orderFoodItems;
         private List<FoodItem> _orderFoodItems = new List<FoodItem>();
 
         private const int ItemYPosition = 7 + 16;
