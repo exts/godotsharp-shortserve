@@ -20,6 +20,8 @@ namespace ShortServe.App.Food
         private Node2D _foodContainer;
 
         private List<Vector2> _spawns = new List<Vector2>();
+
+        public List<FoodSpawn> FoodSpawns => _foodSpawns;
         private List<FoodSpawn> _foodSpawns = new List<FoodSpawn>();
 
         public FoodSpawner(Plates plates, FoodLoader foodLoader, Node2D foodContainer)

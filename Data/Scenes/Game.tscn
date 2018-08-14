@@ -16,7 +16,7 @@
 [ext_resource path="res://Assets/Art/shift.png" type="Texture" id=14]
 [ext_resource path="res://Assets/Art/gameover_hover.png" type="Texture" id=15]
 
-[sub_resource type="DynamicFont" id=13]
+[sub_resource type="DynamicFont" id=1]
 
 size = 20
 use_mipmaps = false
@@ -24,7 +24,7 @@ use_filter = false
 font_data = ExtResource( 2 )
 _sections_unfolded = [ "Font", "Settings" ]
 
-[sub_resource type="DynamicFont" id=1]
+[sub_resource type="DynamicFont" id=2]
 
 size = 40
 use_mipmaps = false
@@ -33,7 +33,7 @@ extra_spacing_char = 8
 font_data = ExtResource( 8 )
 _sections_unfolded = [ "Extra Spacing", "Font", "Font/fallback", "Settings" ]
 
-[sub_resource type="DynamicFont" id=2]
+[sub_resource type="DynamicFont" id=3]
 
 size = 30
 use_mipmaps = false
@@ -42,7 +42,7 @@ extra_spacing_char = 5
 font_data = ExtResource( 8 )
 _sections_unfolded = [ "Extra Spacing", "Font", "Font/fallback", "Settings" ]
 
-[sub_resource type="DynamicFont" id=3]
+[sub_resource type="DynamicFont" id=4]
 
 size = 40
 use_mipmaps = false
@@ -50,7 +50,7 @@ use_filter = false
 font_data = ExtResource( 8 )
 _sections_unfolded = [ "Font", "Font/fallback", "Settings" ]
 
-[sub_resource type="StyleBoxTexture" id=4]
+[sub_resource type="StyleBoxTexture" id=5]
 
 content_margin_left = -1.0
 content_margin_right = -1.0
@@ -58,25 +58,6 @@ content_margin_top = -1.0
 content_margin_bottom = -1.0
 texture = ExtResource( 9 )
 region_rect = Rect2( 0, 0, 190, 49 )
-margin_left = 0.0
-margin_right = 0.0
-margin_top = 0.0
-margin_bottom = 0.0
-expand_margin_left = 0.0
-expand_margin_right = 0.0
-expand_margin_top = 0.0
-expand_margin_bottom = 0.0
-modulate_color = Color( 1, 1, 1, 1 )
-draw_center = true
-
-[sub_resource type="StyleBoxTexture" id=5]
-
-content_margin_left = -1.0
-content_margin_right = -1.0
-content_margin_top = -1.0
-content_margin_bottom = -1.0
-texture = ExtResource( 10 )
-region_rect = Rect2( 0, 0, 190, 45 )
 margin_left = 0.0
 margin_right = 0.0
 margin_top = 0.0
@@ -94,8 +75,8 @@ content_margin_left = -1.0
 content_margin_right = -1.0
 content_margin_top = -1.0
 content_margin_bottom = -1.0
-texture = ExtResource( 9 )
-region_rect = Rect2( 0, 0, 190, 49 )
+texture = ExtResource( 10 )
+region_rect = Rect2( 0, 0, 190, 45 )
 margin_left = 0.0
 margin_right = 0.0
 margin_top = 0.0
@@ -126,17 +107,28 @@ expand_margin_bottom = 0.0
 modulate_color = Color( 1, 1, 1, 1 )
 draw_center = true
 
-[sub_resource type="DynamicFont" id=8]
+[sub_resource type="StyleBoxTexture" id=8]
 
-size = 50
-use_mipmaps = false
-use_filter = false
-font_data = ExtResource( 11 )
-_sections_unfolded = [ "Font", "Font/fallback", "Settings" ]
+content_margin_left = -1.0
+content_margin_right = -1.0
+content_margin_top = -1.0
+content_margin_bottom = -1.0
+texture = ExtResource( 9 )
+region_rect = Rect2( 0, 0, 190, 49 )
+margin_left = 0.0
+margin_right = 0.0
+margin_top = 0.0
+margin_bottom = 0.0
+expand_margin_left = 0.0
+expand_margin_right = 0.0
+expand_margin_top = 0.0
+expand_margin_bottom = 0.0
+modulate_color = Color( 1, 1, 1, 1 )
+draw_center = true
 
 [sub_resource type="DynamicFont" id=9]
 
-size = 15
+size = 50
 use_mipmaps = false
 use_filter = false
 font_data = ExtResource( 11 )
@@ -159,6 +151,14 @@ font_data = ExtResource( 11 )
 _sections_unfolded = [ "Font", "Font/fallback", "Settings" ]
 
 [sub_resource type="DynamicFont" id=12]
+
+size = 15
+use_mipmaps = false
+use_filter = false
+font_data = ExtResource( 11 )
+_sections_unfolded = [ "Font", "Font/fallback", "Settings" ]
+
+[sub_resource type="DynamicFont" id=13]
 
 size = 60
 use_mipmaps = false
@@ -189,7 +189,7 @@ mouse_filter = 0
 mouse_default_cursor_shape = 2
 size_flags_horizontal = 1
 size_flags_vertical = 1
-custom_fonts/font = SubResource( 13 )
+custom_fonts/font = SubResource( 1 )
 toggle_mode = false
 enabled_focus_mode = 0
 shortcut = null
@@ -213,7 +213,7 @@ mouse_filter = 0
 mouse_default_cursor_shape = 2
 size_flags_horizontal = 1
 size_flags_vertical = 1
-custom_fonts/font = SubResource( 13 )
+custom_fonts/font = SubResource( 1 )
 toggle_mode = false
 enabled_focus_mode = 0
 shortcut = null
@@ -292,7 +292,7 @@ mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
-custom_fonts/font = SubResource( 1 )
+custom_fonts/font = SubResource( 2 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "0"
 align = 1
@@ -321,7 +321,7 @@ mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
-custom_fonts/font = SubResource( 2 )
+custom_fonts/font = SubResource( 3 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "0"
 align = 1
@@ -346,7 +346,7 @@ mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
-custom_fonts/font = SubResource( 3 )
+custom_fonts/font = SubResource( 4 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "Highscore"
 align = 1
@@ -372,9 +372,9 @@ mouse_filter = 0
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-custom_styles/hover = SubResource( 4 )
-custom_styles/pressed = SubResource( 5 )
-custom_styles/normal = SubResource( 6 )
+custom_styles/hover = SubResource( 5 )
+custom_styles/pressed = SubResource( 6 )
+custom_styles/normal = SubResource( 7 )
 custom_colors/font_color_disabled = Color( 0, 0, 0, 1 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color_hover = Color( 0, 0, 0, 1 )
@@ -405,9 +405,9 @@ mouse_filter = 0
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-custom_styles/hover = SubResource( 7 )
-custom_styles/pressed = SubResource( 5 )
-custom_styles/normal = SubResource( 6 )
+custom_styles/hover = SubResource( 8 )
+custom_styles/pressed = SubResource( 6 )
+custom_styles/normal = SubResource( 7 )
 custom_colors/font_color_disabled = Color( 0, 0, 0, 1 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color_hover = Color( 0, 0, 0, 1 )
@@ -441,7 +441,7 @@ mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
-custom_fonts/font = SubResource( 8 )
+custom_fonts/font = SubResource( 9 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "Tutorial"
 align = 1
@@ -466,7 +466,7 @@ mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
-custom_fonts/font = SubResource( 9 )
+custom_fonts/font = SubResource( 10 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "
 The objective of the game is to serve as many orders before the tables fill up. How you decide to manage your orders is up to you!
@@ -494,7 +494,7 @@ mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
-custom_fonts/font = SubResource( 10 )
+custom_fonts/font = SubResource( 11 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "Left click allows you to select up to 3 food plates. In order to deliver an order select the items that appear on the order and click on the order to complete it."
 align = 1
@@ -520,7 +520,7 @@ mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
-custom_fonts/font = SubResource( 10 )
+custom_fonts/font = SubResource( 11 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "Right click allows you to undo a single selection. You can also dismiss an order by right clicking on an order bubble to spawn a new order."
 align = 1
@@ -546,7 +546,7 @@ mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
-custom_fonts/font = SubResource( 10 )
+custom_fonts/font = SubResource( 11 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "Shift+Right click allows you to deselect all selections
 "
@@ -592,7 +592,7 @@ mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
-custom_fonts/font = SubResource( 11 )
+custom_fonts/font = SubResource( 12 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "+"
 align = 1
@@ -639,7 +639,7 @@ mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
-custom_fonts/font = SubResource( 12 )
+custom_fonts/font = SubResource( 13 )
 custom_colors/font_color = Color( 1, 1, 1, 1 )
 text = "GameOver"
 percent_visible = 1.0
@@ -663,7 +663,7 @@ mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
-custom_fonts/font = SubResource( 12 )
+custom_fonts/font = SubResource( 13 )
 custom_colors/font_color = Color( 1, 1, 1, 1 )
 text = "StartGame"
 percent_visible = 1.0

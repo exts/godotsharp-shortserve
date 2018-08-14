@@ -22,9 +22,13 @@ namespace ShortServe.App.Orders
             _orderObject = (PackedScene) GD.Load($"{Global.ResDataObjects}/Order.tscn");
         }
 
-        public Order CreateOrder()
+        public Order CreateOrder(List<FoodSpawn> foodSpawns)
         {
-            var items = _foodLoader.RandomUniqueRange(Global.RNG.Next(1,4));
+            var rng = Global.RNG.Next(1, 4);
+            var items = foodSpawns.Count > 3
+                ? _foodLoader.RandomUniqueRangeItems(rng, foodSpawns)
+                : _foodLoader.RandomUniqueRange(rng);
+            
             var order = _orderObject.Instance<Order>();
             order.AddFoodItems(items);
 

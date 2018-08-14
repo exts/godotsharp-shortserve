@@ -199,7 +199,7 @@ namespace ShortServe.App
 
         private void CreateOrder(Vector2 position)
         {
-            var order = _orderCreator.CreateOrder();
+            var order = _orderCreator.CreateOrder(_foodSpawner.FoodSpawns);
             order.Connect("SpawnOrder", this, nameof(SpawnOrder));
             order.Position = position;
             _orderContainer.AddChild(order);
