@@ -261,6 +261,8 @@ namespace ShortServe.App
         {
             if(_foodSpawner.GetAvailableSpawns().Any()) return;
             
+            _plates.DeselectAllPlates();
+            
             _soundtrack.Stop();
             _gameoverSoundtrack.Play();
             
