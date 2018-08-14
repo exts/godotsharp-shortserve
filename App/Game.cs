@@ -252,6 +252,7 @@ namespace ShortServe.App
 
         private void UpdateHighScore(int highscore)
         {
+            _highscore = highscore;
             _scoreContainer.GetNode<Label>("HighscoreScore").Text = highscore.ToString();
         }
 
