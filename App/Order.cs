@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Linq;
 using Godot;
 using ShortServe.App.Core;
@@ -34,7 +34,7 @@ namespace ShortServe.App
         private const int ItemYPosition = 7 + 16;
         private const int ItemPadding = 10;
         
-        private Godot.Dictionary<int, int[]> _possiblePoints = new Godot.Dictionary<int, int[]>
+        private Godot.Collections.Dictionary<int, int[]> _possiblePoints = new Godot.Collections.Dictionary<int, int[]>
         {
             {1, new [] {10, 10, 10, 10, 10, 20, 20, 20, 30, 30}},
             {2, new [] {40, 40, 40, 40, 40, 50, 50, 50, 60, 60}},

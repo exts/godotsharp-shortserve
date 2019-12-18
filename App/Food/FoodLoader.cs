@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -23,7 +23,7 @@ namespace ShortServe.App.Food
     
     public class FoodLoader
     {
-        private readonly Godot.Dictionary<string, string> _drinks = new Godot.Dictionary<string, string>
+        private readonly Godot.Collections.Dictionary<string, string> _drinks = new Godot.Collections.Dictionary<string, string>
         {
             {"Beer", "Beer.png"},
             {"Marmalade", "Marmalade.png"},
@@ -32,7 +32,7 @@ namespace ShortServe.App.Food
             {"Wine", "Wine.png"},
         };
         
-        private readonly Godot.Dictionary<string, string> _sides = new Godot.Dictionary<string, string>
+        private readonly Godot.Collections.Dictionary<string, string> _sides = new Godot.Collections.Dictionary<string, string>
         {
             {"Bread", "Bread.png"},
             {"Brownie", "Brownie.png"},
@@ -49,7 +49,7 @@ namespace ShortServe.App.Food
             {"Waffles", "Waffles.png"}
         };
 
-        private readonly Godot.Dictionary<string, string> _meats = new Godot.Dictionary<string, string>
+        private readonly Godot.Collections.Dictionary<string, string> _meats = new Godot.Collections.Dictionary<string, string>
         {
             {"Bacon", "Bacon.png"},
             {"Chicken", "Chicken.png"},
@@ -75,7 +75,7 @@ namespace ShortServe.App.Food
                 CreateSprites();
         }
         
-        private static void CreateTextures(string type, Godot.Dictionary<string, string> foods, ICollection<FoodItem> foodItemTexturess, string assetPath)
+        private static void CreateTextures(string type, Godot.Collections.Dictionary<string, string> foods, ICollection<FoodItem> foodItemTexturess, string assetPath)
         {
             foreach(var food in foods)
             {
@@ -89,7 +89,7 @@ namespace ShortServe.App.Food
         public static Sprite CreateSprite(Texture texture)
         {
             var sprite = new Sprite();
-            sprite.SetTexture(texture);
+            sprite.Texture = texture;
             sprite.Scale = new Vector2(2f, 2f);
 
             return sprite;

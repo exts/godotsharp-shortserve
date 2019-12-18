@@ -1,4 +1,5 @@
-﻿using Godot;
+using Godot;
+using Godot.Collections;
 using Newtonsoft.Json;
 
 namespace ShortServe.App.Core
@@ -14,7 +15,7 @@ namespace ShortServe.App.Core
         public void CreateFile(string key, int score)
         {
             var file = new File();
-            var error = file.OpenEncryptedWithPass(DataFile, (int) File.ModeFlags.Write, key);
+            var error = file.OpenEncryptedWithPass(DataFile, File.ModeFlags.Write, key);
             if(error == Error.Ok)
             {
                 var data = new System.Collections.Generic.Dictionary<string, int>
@@ -46,7 +47,7 @@ namespace ShortServe.App.Core
             }
 
             var highscore = 0;
-            var error = gamedata.OpenEncryptedWithPass(DataFile, (int) File.ModeFlags.Read, e);
+            var error = gamedata.OpenEncryptedWithPass(DataFile, File.ModeFlags.Read, e);
             if(error == Error.Ok)
             {
                 var json = gamedata.GetAsText();

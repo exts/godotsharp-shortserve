@@ -1,0 +1,626 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Get",
+				"GetRoot"
+			],
+			[
+				"build",
+				"build_all"
+			],
+			[
+				"Set",
+				"SettingsTable"
+			],
+			[
+				"buil",
+				"build_all"
+			],
+			[
+				"Sett",
+				"SettingType"
+			],
+			[
+				"bui",
+				"build_all_runtines"
+			],
+			[
+				"buildA",
+				"build_all_runtines"
+			],
+			[
+				"get",
+				"get_runtime"
+			],
+			[
+				"sup",
+				"supported_runtime_ids"
+			],
+			[
+				"default",
+				"default_release_type"
+			],
+			[
+				"sett",
+				"settings_file"
+			],
+			[
+				"defa",
+				"default_release_type"
+			],
+			[
+				"lin",
+				"linux-x64"
+			],
+			[
+				"win-x",
+				"win-x64"
+			],
+			[
+				"ConfigLo",
+				"ConfigLoader"
+			],
+			[
+				"dns",
+				"database_dns"
+			],
+			[
+				"connec",
+				"connection_parser"
+			],
+			[
+				"dbuser",
+				"dbuserpass"
+			],
+			[
+				"cre",
+				"create_from_database"
+			],
+			[
+				"crea",
+				"create_from_dns_string"
+			],
+			[
+				"cmd",
+				"cmd_factory"
+			],
+			[
+				"co",
+				"command"
+			],
+			[
+				"datab",
+				"database_dns"
+			],
+			[
+				"da",
+				"database_dns"
+			],
+			[
+				"Conn",
+				"ConnectionParser"
+			],
+			[
+				"ConfigLoad",
+				"ConfigLoaderException"
+			],
+			[
+				"tas",
+				"task_func"
+			],
+			[
+				"ta",
+				"task_name"
+			],
+			[
+				"lua",
+				"lua_state"
+			],
+			[
+				"def",
+				"default_deploy_extension"
+			],
+			[
+				"fo",
+				"forced_maintenance"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "App/App.cs",
+			"settings":
+			{
+				"buffer_size": 1107,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "ShortServe.sublime-project",
+			"settings":
+			{
+				"buffer_size": 86,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "App/Core/Global.cs",
+			"settings":
+			{
+				"buffer_size": 1741,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 137.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Z/GameDev/Gamejam/ShortServe",
+		"/Z/GameDev/Gamejam/ShortServe/.mono",
+		"/Z/GameDev/Gamejam/ShortServe/.mono/assemblies",
+		"/Z/GameDev/Gamejam/ShortServe/App"
+	],
+	"file_history":
+	[
+		"/Z/GameDev/Gamejam/ShortServe/ShortServe.csproj",
+		"/Z/GameDev/Gamejam/ShortServe/ShortServe.sln",
+		"/Z/OneDrive/Documents/Programming/Freelance/YFP/18-06-19/video.php",
+		"/Z/OneDrive/Documents/Programming/Freelance/YFP/18-06-19/components/VideoCaptchaService.php",
+		"/Z/OneDrive/Documents/Programming/Freelance/YFP/18-06-19/saved/config.db.php",
+		"/D/Program Files/Steam/steamapps/common/Moonlighter/Moonlighter_Data/boot.config",
+		"/Z/GameDev/Notes/Godot/ScriptTemplates.txt",
+		"/Z/GameDev/Projects/Tutorials/SpaceShooter/project.godot",
+		"/C/temp/godot/editor/editor_fonts.cpp",
+		"/Z/GameDev/Projects/Tutorials/SpaceShooter/SpaceShooter.csproj",
+		"/Z/Dev/tpd-legacy.dev/deployer/2018/database.yml",
+		"/D/Program Files/Steam/steamapps/common/Bless Online/Engine/Config/BaseEngine.ini",
+		"/Z/Downloads/Debug.scripts/launch.js",
+		"/Z/Downloads/Debug.scripts/launch.json",
+		"/C/Users/Lamonte/.vscode/extensions/ms-vscode.mono-debug-0.15.8/package.nls.json",
+		"/C/Users/Lamonte/.vscode/extensions/ms-vscode.mono-debug-0.15.8/package.json",
+		"/Z/GameDev/Projects/Tutorials/SpaceShooter - Copy/Application/Ship.cs",
+		"/Z/Dev/ccs.com/_server/crypto_db.sql",
+		"/Z/GameDev/Projects/Tutorials/DebuggaTest/.vscode/settings.json",
+		"/Z/GameDev/Projects/Tutorials/SpaceShooter/SpaceShooter.sln.DotSettings.user",
+		"/Z/Development/nix7/tpd.dev/deployer/2018/errors.log",
+		"/Z/Downloads/SignalTest/TestNode.cs",
+		"/Z/DevBoxes/php7.0-dev/Vagrantfile",
+		"/C/Users/Lamonte/AppData/Local/Packages/Microsoft.Dayton_8wekyb3d8bbwe/LocalState/StateOfDecay2/Saved/Config/UWP/Engine.ini",
+		"/D/Program Files/Steam/steamapps/common/Frostpunk/GfxConfig.ini",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/Z/GameDev/Projects/PGTest/project.godot",
+		"/Z/GameDev/Projects/PGTest/Application/Global.cs",
+		"/Z/GameDev/Projects/PGTest/Application/Core/Root.cs",
+		"/Z/GameDev/Projects/ProjectGiada/Application/StartMenu.cs",
+		"/Z/Dev/bkup/tpd_main-2018-06-11.sql",
+		"/Z/Downloads/api.steampowered.com.json",
+		"/Z/Programming/Godot3/Godeweled/scripts/TileScene.cs",
+		"/Z/Programming/Godot3/Godeweled/scripts/MainScene.cs",
+		"/Z/Programming/Godot3/Godeweled/scripts/HudScene.cs",
+		"/Z/Dev/_other/current_20.04.18/current/site-review-text.html",
+		"/Z/Dev/_other/current_20.04.18/current/css/all.css",
+		"/Z/Programming/CsharpGames/Test1/Test1/Core/Entities/Entity.cs",
+		"/Z/Programming/Godot3/Project Endless/src/Global.cs",
+		"/Z/Programming/Godot3/Project Endless/src/Core/Root.cs",
+		"/Z/Programming/Godot3/Project Endless/src/Core/Extensions/GodotExtensions.cs",
+		"/Z/Programming/CsharpGames/ProjectGiada/.gitignore",
+		"/Z/Programming/CsharpGames/Test1/Test1/Game1.cs",
+		"/Z/GameDev/Projects/ProjectGiada/ProjectGiada.csproj",
+		"/Z/Programming/Godot3/Godeweled/Godeweled.csproj",
+		"/Z/Programming/CsharpGames/Test1/Test1/Entities/Bullet.cs",
+		"/Z/Programming/CsharpGames/Test1/Test1/Entities/BulletDrawable.cs",
+		"/Z/Programming/CsharpGames/Test1/Test1/Entities/BulletSystem.cs",
+		"/Z/Programming/CsharpGames/Test1/Test1/Entities/Example.cs",
+		"/Z/Programming/CsharpGames/Test1/Test1/Entities/ExampleDrawable.cs",
+		"/Z/Programming/CsharpGames/Test1/Test1/Entities/ExampleHealthComponent.cs",
+		"/Z/Programming/CsharpGames/Endless/Game1.cs",
+		"/Z/Programming/CsharpGames/ProjectGiada/ProjectGiada/Content/Consolas.spritefont",
+		"/C/Users/Lamonte/Documents/My Games/Fallout4/Saves/Autosave1_0A5055B1M_SanctuaryHillsWorld_000002_20161106025025_1_2.fos",
+		"/C/Users/Lamonte/AppData/Roaming/obs-studio/global.ini",
+		"/Z/Downloads/UI_Examples-2.6.0.0/Empty_Example/GameLibrary/GeneratedUI/Root.xaml.cs",
+		"/Z/Downloads/test.cs",
+		"/Z/Downloads/test.Generated.cs",
+		"/Z/OneDrive/Documents/Ideas/games/card-cooking-game.txt",
+		"/Z/Programming/Godot3/Gamejam/BrokeJack/scripts/Core/LabelContainer.gd",
+		"/Z/Programming/Godot3/Gamejam/BrokeJack/scripts/Core/LabelManager.gd",
+		"/Z/Programming/Godot3/Gamejam/BrokeJack/scripts/Init.gd",
+		"/Z/Programming/Godot3/Gamejam/BrokeJack/scripts/GameOver.gd",
+		"/Z/Programming/Godot3/Gamejam/BrokeJack/scripts/Global.gd",
+		"/Z/Programming/Godot3/Gamejam/BrokeJack/scripts/Core/Game.gd",
+		"/Z/Programming/Godot3/Gamejam/BrokeJack/scripts/Board.gd",
+		"/Z/Programming/Godot3/Github/godot-yourfirstgame/Main.cs",
+		"/Z/Programming/Godot3/Gamejam/BrokeJack/scripts/Core/Deck.gd",
+		"/Z/Programming/Godot3/Gamejam/BrokeJack/scripts/Core/DeckCard.gd",
+		"/Z/Programming/CsharpGames/Test1/Test1/Entities/ShipSystem.cs",
+		"/Z/Programming/CsharpGames/Endless/Endless.csproj",
+		"/Z/Programming/CsharpGames/Test1/Test1/Test1.csproj",
+		"/Z/Programming/Godot3/Endless/src/global.gd",
+		"/Z/Programming/CsharpGames/Test1/Test1/Content/Content.mgcb",
+		"/Z/Programming/CsharpGames/Test1/Test1/Content/Rubik.spritefont",
+		"/Z/Programming/CsharpGames/Test1/Test1/Content/GameOver.spritefont",
+		"/Z/Development/nix7/tpd.dev/deployer/2018/linkbuilder_worker.out.log",
+		"/C/Users/Lamonte/AppData/Roaming/Skype/My Skype Received Files/style.css",
+		"/C/Users/Lamonte/AppData/Roaming/Skype/My Skype Received Files/source.js",
+		"/C/Users/Lamonte/AppData/Roaming/Skype/My Skype Received Files/source(1).js",
+		"/Z/Programming/CsharpGames/NezTest/NezTest/NezTest.csproj",
+		"/Z/Programming/CsharpGames/ProjectEndless/ProjectEndless/Content/Content.mgcb",
+		"/Z/Programming/CsharpGames/ProjectEndless/ProjectEndless/nuget.config",
+		"/Z/Programming/CsharpGames/ProjectEndless/ProjectEndless/ProjectEndless.csproj",
+		"/Z/Programming/CsharpGames/Nez/Nez.Portable/Nez.csproj",
+		"/Z/Programming/Godot3/Docs/ui_code_life_bar/end-csharp/LevelMockup.tscn",
+		"/Z/Programming/Godot3/Docs/ui_code_life_bar/start-csharp/scripts/Player.cs",
+		"/Z/Programming/Godot3/Docs/ui_code_life_bar/start-csharp/scripts/Gui.cs",
+		"/Z/Programming/Godot3/Docs/ui_code_life_bar/start-csharp/scripts/Enemy.cs",
+		"/Z/gitrepos/github/godot-docs/make.bat",
+		"/Z/Programming/Godot3/ProjectGiada/Planning/gameplay.md",
+		"/Z/Programming/Godot3/ProjectGiada/Planning/features.md",
+		"/Z/Programming/CsharpGames/DNMono/DNMono.csproj",
+		"/Z/Programming/CsharpGames/DNMono/nuget.config",
+		"/Z/Dev/_other/current_13.04.18/current/site-review-text.html",
+		"/Z/Programming/Nim/MonoWorkflow/monoflow.json",
+		"/Z/Programming/Nim/MonoWorkflow/.gitignore",
+		"/Z/Programming/Nim/MonoWorkflow/README.md",
+		"/Z/Programming/Nim/MonoWorkflow/monobuild.nim",
+		"/Z/Dev/_other/current_12.04.18/current/site-review-text.html",
+		"/Z/Programming/Nim/MonoWorkflow/monoworkflow.nim",
+		"/Z/Dev/cryptolinks.com/Public/includes/css/flags.css",
+		"/Z/Programming/Nim/MonoWorkflow/flowsettings.nim",
+		"/Z/Dev/cryptolinks.com/Public/includes/images/browser/manifest.json",
+		"/Z/Programming/Nim/MonoWorkflow/flowhelpers.nim",
+		"/Z/Programming/Nim/MonoWorkflow/settings.nim",
+		"/Z/Programming/Pony/monoflow/main.pony",
+		"/Z/Programming/Nim/MonoWorkflow/nim/monoflow.json",
+		"/Z/Programming/Nim/MonoWorkflow/nim/monoworkflow.nim",
+		"/Z/Programming/Go/Monoflow/monoflow.go",
+		"/Z/Programming/Godot3/Project Endless/src/Init.cs",
+		"/Z/Dev/users/cryptolinks.txt",
+		"/Z/Programming/CsharpGames/ProjectEndless/ProjectEndless/bin/Release/netcoreapp2.0/win-x64/publish/ProjectEndless.runtimeconfig.json",
+		"/Z/Programming/CsharpGames/ProjectEndless/ProjectEndless/bin/Release/netcoreapp2.0/win-x64/publish/ProjectEndless.deps.json",
+		"/Z/Programming/CsharpGames/ProjectEndless/ProjectEndless/obj/project.assets.json",
+		"/Z/Dev/users/pinasian.txt",
+		"/Z/Programming/CsharpGames/ProjectEndless/ProjectEndless/bin/Release/netcoreapp2.0/win-x64/ProjectEndless.runtimeconfig.json",
+		"/Z/Programming/CsharpGames/ProjectEndless/ProjectEndless/bin/Release/netcoreapp2.0/win-x64/ProjectEndless.runtimeconfig.dev.json",
+		"/Z/Programming/CsharpGames/ProjectEndless/ProjectEndless/bin/Release/netcoreapp2.0/win-x64/ProjectEndless.deps.json",
+		"/Z/Programming/CsharpGames/ProjectEndless/ProjectEndless/bin/Release/netcoreapp2.0/win-x64/ProjectEndless.pdb",
+		"/Z/Programming/CsharpGames/ProjectEndless/ProjectEndless/bin/Release/netcoreapp2.0/ProjectEndless.deps.json",
+		"/Z/Programming/CsharpGames/ProjectEndless/ProjectEndless/obj/project.packagespec.json",
+		"/Z/Programming/CsharpGames/ProjectEndless/ProjectEndless/obj/ProjectEndless.csproj.nuget.g.targets",
+		"/Z/OneDrive/Documents/Ideas/games/Project Dungeon.md",
+		"/Z/Programming/CsharpGames/Endless/Endless.sln",
+		"/Z/Programming/CsharpGames/Endless/obj/project.packagespec.json",
+		"/Z/Programming/CsharpGames/Endless/bin/Release/netcoreapp2.0/linux-x64/publish/Endless.runtimeconfig.json",
+		"/Z/Downloads/DesktopGL/Program.cs"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$(ProjectDir)",
+			"testconsoleprj",
+			"$(ProjectDir)\\",
+			"potential_conflict",
+			"]\n}",
+			"{\n\"deadzone\": 0.5,\n\"events\": ",
+			"never",
+			"translations",
+			"ALTER TABLE `translations` ADD `review_title` varchar(100) COLLATE 'utf8_unicode_ci' NULL;\nALTER TABLE `translations` ADD `review_short_title` varchar(40) COLLATE 'utf8_unicode_ci' NULL;\nALTER TABLE `translations` ADD `review_body` text COLLATE 'utf8_unicode_ci' NULL;",
+			"ALTER",
+			"ALTER TABLE `translations` ADD `review_title` varchar(100) COLLATE 'utf8_unicode_ci' NULL;",
+			";",
+			"text",
+			"test",
+			"\"]\n",
+			"linkbuilder"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "App/App.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								131,
+								131
+							]
+						],
+						"settings":
+						{
+							"doccontinue.autostop": true,
+							"doccontinue.enabled": true,
+							"oops":
+							{
+								"1011,1017": "'Global' is not a known identifier",
+								"1018,1022": "'?' does not contain a definition for 'Root'",
+								"1024,1025": "'?' does not contain a definition for 'Root'",
+								"1025,1033": "'?' does not contain a definition for 'AddChild'",
+								"1041,1042": "'?' does not contain a definition for 'AddChild'",
+								"1055,1062": "'GetTree' is not a known identifier",
+								"1064,1065": "'App' does not contain a definition for 'GetTree'",
+								"1065,1080": "'?' does not contain a definition for 'SetCurrentScene'",
+								"1088,1089": "'?' does not contain a definition for 'SetCurrentScene'",
+								"118,122": "'Node' is not a known identifier",
+								"281,287": "'Global' is not a known identifier",
+								"288,296": "'?' does not contain a definition for 'Instance'",
+								"297,312": "'?' does not contain a definition for 'SetRootViewport'",
+								"313,320": "'GetTree' is not a known identifier",
+								"322,323": "'App' does not contain a definition for 'GetTree'",
+								"323,330": "'?' does not contain a definition for 'GetRoot'",
+								"332,333": "'?' does not contain a definition for 'GetRoot'",
+								"333,334": "'?' does not contain a definition for 'SetRootViewport'",
+								"34,38": "Unknown Resolver Error",
+								"409,415": "'Global' is not a known identifier",
+								"416,428": "'?' does not contain a definition for 'CurrentScene'",
+								"430,431": "Cannot convert from ? to [UnknownType Node]",
+								"538,546": "'MainLoop' is not a known identifier",
+								"547,572": "Error: Boolean",
+								"6,11": "'Godot' is not a known identifier",
+								"658,665": "'GetTree' is not a known identifier",
+								"667,668": "'App' does not contain a definition for 'GetTree'",
+								"668,672": "'?' does not contain a definition for 'Quit'",
+								"674,675": "'?' does not contain a definition for 'Quit'",
+								"774,786": "'CallDeferred' is not a known identifier",
+								"787,793": "'nameof' is not a known identifier",
+								"813,814": "'App' does not contain a definition for 'nameof'",
+								"820,821": "'App' does not contain a definition for 'CallDeferred'",
+								"91,95": "'Node' is not a known identifier",
+								"915,919": "'Node' does not contain a definition for 'Free'",
+								"921,922": "'Node' does not contain a definition for 'Free'",
+								"946,957": "'PackedScene' is not a known identifier",
+								"959,961": "'GD' is not a known identifier",
+								"962,966": "'?' does not contain a definition for 'Load'",
+								"972,973": "'?' does not contain a definition for 'Load'",
+								"974,982": "'?' does not contain a definition for 'Instance'",
+								"984,985": "Cannot convert from ? to [UnknownType Node]"
+							},
+							"syntax": "Packages/C#/C#.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "ShortServe.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 86,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								78,
+								78
+							]
+						],
+						"settings":
+						{
+							"doccontinue.autostop": true,
+							"doccontinue.enabled": true,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "App/Core/Global.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1741,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								85,
+								85
+							]
+						],
+						"settings":
+						{
+							"doccontinue.autostop": true,
+							"doccontinue.enabled": true,
+							"syntax": "Packages/C#/C#.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 126.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.variable_get":
+	{
+		"height": 217.0
+	},
+	"pinned_build_system": "",
+	"project": "ShortServe.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 253.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

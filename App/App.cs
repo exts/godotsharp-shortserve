@@ -1,4 +1,4 @@
-﻿using Godot;
+using Godot;
 using ShortServe.App.Core;
 
 namespace ShortServe.App
@@ -10,10 +10,17 @@ namespace ShortServe.App
         public override void _Ready()
         {
             // this singleton lets us access the root from everywhere in our application
-            Global.Instance.SetRootViewport(GetTree().GetRoot());
+            Global.Instance.SetRootViewport(GetTree().Root);
 
             // grab the current scene that's loaded
             _scene = Global.CurrentScene();
+
+            switch(OS.GetName()) {
+                case "HTML5":
+                    OS.WindowMaximized = true;
+                    GD.Print("HTML5");
+                    break;
+            }
         }
         
         public override void _Notification(int what)
@@ -38,7 +45,7 @@ namespace ShortServe.App
             _scene = ((PackedScene) GD.Load(path)).Instance();
             
             Global.Root().AddChild(_scene);
-            GetTree().SetCurrentScene(_scene);
+            GetTree().CurrentScene = _scene;
         }
     }
 }

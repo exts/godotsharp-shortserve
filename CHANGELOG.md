@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.2.0] - 2019 - 12 - 18
+### Changed
+- Added a HTML5 check to force window maximize
+- Removed splash from start up because issue with 3.2 
+- Refactored game over code so I can force gameover when quitting
+- Made code work with 3.2, namespaces such as Godot.Dictionary & Godot.Array have changed, etc... 
+
 ## [1.1.0] - 2018 - 08 - 14
 ### Changed
 - Made plates deselect when the game ends

@@ -1,4 +1,4 @@
-﻿using Godot;
+using Godot;
 using ShortServe.App.Core;
 
 namespace ShortServe.App

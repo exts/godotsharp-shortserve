@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Godot;
@@ -62,8 +62,8 @@ namespace ShortServe.App
 
             _twitter1 = GetNode<LinkButton>("Twitter");
             _twitter2 = GetNode<LinkButton>("Twitter2");
-            _twitter1.Connect("pressed", this, nameof(Twitter), new Array {"G4MR"});
-            _twitter2.Connect("pressed", this, nameof(Twitter), new Array {"IMG4MR"});
+            _twitter1.Connect("pressed", this, nameof(Twitter), new Godot.Collections.Array {"G4MR"});
+            _twitter2.Connect("pressed", this, nameof(Twitter), new Godot.Collections.Array {"IMG4MR"});
 
             var audio = GetNode<Node>("Audio");
             _soundtrack = audio.GetNode<AudioStreamPlayer>("Soundtrack");
@@ -132,6 +132,7 @@ namespace ShortServe.App
         public void QuitGame()
         {
             _buttonClick.Play();
+            EndGame();
             Global.App().Quit();
         }
         
@@ -170,7 +171,7 @@ namespace ShortServe.App
 
         private void PurgeOrders()
         {
-            foreach(var current in _orderContainer.GetChildren().ToList())
+            foreach(var current in _orderContainer.GetChildren())
             {
                 if(current is Order order)
                 {
@@ -261,6 +262,11 @@ namespace ShortServe.App
         {
             if(_foodSpawner.GetAvailableSpawns().Any()) return;
             
+            EndGame();
+        }
+
+        private void EndGame()
+        {
             _plates.DeselectAllPlates();
             
             _soundtrack.Stop();
@@ -294,7 +300,7 @@ namespace ShortServe.App
         private List<FoodItem> FoodItems()
         {
             var list = new List<FoodItem>();
-            foreach(var item in _orderContainer.GetChildren().ToList())
+            foreach(var item in _orderContainer.GetChildren())
             {
                 if(item is Order order)
                 {

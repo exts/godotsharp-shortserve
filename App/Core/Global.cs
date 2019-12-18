@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Godot;
 
 namespace ShortServe.App.Core
@@ -19,7 +19,7 @@ namespace ShortServe.App.Core
 
         private const Scenes StartScene = Scenes.StartMenu;
 
-        private readonly Dictionary<string, string> _scenePaths = new Dictionary<string, string>
+        private readonly Godot.Collections.Dictionary<string, string> _scenePaths = new Godot.Collections.Dictionary<string, string>
         {
             {"Splash", "Splash.tscn"},
             {"Game", "Game.tscn"}
